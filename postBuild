@@ -1,4 +1,4 @@
 #!/bin/sh
 npm config set prefix $HOME
-npm ci -g
-ijsinstall --install=global
+npm ci
+npx ijsinstall --install=global
