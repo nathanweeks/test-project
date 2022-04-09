@@ -1,4 +1,3 @@
 #!/bin/sh
-npm config set prefix $HOME
-npm ci
-npx ijsinstall --install=global
+npm install
+npx ijsinstall --
