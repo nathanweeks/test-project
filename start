@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir -p ./mongo/db
+mongod --fork --dbpath ./mongo/db --logpath ./mongo/mongod.log
+
+exec "$@"
