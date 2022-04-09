@@ -3,4 +3,6 @@
 mkdir -p ./mongo/db
 mongod --fork --dbpath ./mongo/db --logpath ./mongo/mongod.log
 
+export PATH=$HOME/node_modules/.bin:$PATH
+
 exec "$@"
