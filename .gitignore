@@ -116,4 +116,5 @@ dist
 .pnp.*
 
 # python
+mongo
 venv
